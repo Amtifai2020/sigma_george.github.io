@@ -1,0 +1,34 @@
+h1{
+    color: red;
+}
+
+
+@keyframes liveBackground {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: rgb(116, 38, 110);
+  }
+  50% {
+    background-color: rgb(13, 198, 115);
+  }
+  75%{
+    background-color: rgb(216, 1, 180);
+  }
+  100%{
+    background-color: brown;
+  }
+
+}
+
+
+body {
+  animation: liveBackground 5s infinite;
+}
+
+
+h2{
+  color: white;
+  
+}
